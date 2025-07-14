@@ -250,7 +250,8 @@
 <?php require   __DIR__ . '/footer.php' ?>
 
 <script>
-    const baseUrl = <?= json_encode($API_BASE_URL . '/pac') ?>;
+    const apiUrl = <?= json_encode($API_BASE_URL) ?>;
+    const baseUrl = <?= json_encode($API_BASE_URL . '/local_vault') ?>;
 
     $(document).ready(function() {
         initDateSub();
@@ -265,6 +266,7 @@
                 start_date: startDate,
                 end_date: endDate
             };
+            showLoadingToast('Cargando estadisticas...');
 
             $.ajax({
                 url: `${baseUrl}/report_stats`,
@@ -285,8 +287,12 @@
                     $('#received_payrolls').text(received.payrolls);
                     $('#received_payment_supplements').text(received.payment_supplements);
                     $('#received_translates').text(received.translates);
+
+                    closeLoadingToast();
                 },
                 error: function() {
+                    closeLoadingToast();
+
                     showToast('Error al obtener estadísticas', 'error');
                 }
             });
@@ -299,7 +305,7 @@
         showLoader();
 
         $.ajax({
-            url: `${baseUrl}/download_files`,
+            url: `${apiUrl}/pac/download_files`,
             method: 'POST',
             data,
             xhrFields: {

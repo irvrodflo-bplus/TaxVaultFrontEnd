@@ -44,6 +44,22 @@
         function closeLoader() {
             Swal.close();
         }
+        function showLoadingToast(message = 'Cargando...') {
+            Swal.fire({
+                title: message,
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+        }
+        function closeLoadingToast() {
+            Swal.close();
+        }
         </script>
     </body>
 </html>
