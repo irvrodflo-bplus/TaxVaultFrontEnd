@@ -176,57 +176,69 @@
 </section>
 
 
-<form id="dataForm" class="row mt-2">
-    <div class="col-4">
-        <h6>Periodo de Descarga</h6>
-
-        <div class="row">
-            <div class="form-group col-6">
-                <label class="text-muted">Fecha de Inicio</label>
-                <input type="date" name="start_date" id="start_date" class="form-control" value="<?= $startDate ?>">
-            </div>
-            <div class="form-group col-6">
-                <label class="text-muted">Fecha de Fin</label>
-                <input type="date" name="end_date" id="end_date" class="form-control" value="<?= $endDate ?>">
+<form id="dataForm" class="row mt-2 mb-5">
+    <div class="col-4 d-flex flex-column">
+        <div>
+            <h6>Periodo de Descarga</h6>
+        </div>
+        <div class="mt-auto">
+            <div class="row">
+                <div class="form-group col-6">
+                    <label class="text-muted">Fecha de Inicio</label>
+                    <input type="date" name="start_date" id="start_date" class="form-control" value="<?= $startDate ?>">
+                </div>
+                <div class="form-group col-6">
+                    <label class="text-muted">Fecha de Fin</label>
+                    <input type="date" name="end_date" id="end_date" class="form-control" value="<?= $endDate ?>">
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-5">
-        <h6>Tipo de Comprobante</h6>
 
-        <div class="row mx-2">
-            <div class="btn-group" role="group" ">
-                <input type="radio" class="btn-check" name="document_type" id="I" autocomplete="off" checked>
-                <label class="btn btn-outline-primary btn-sm" for="I">Ingresos</label>
+    <div class="col-5 d-flex flex-column">
+        <div>
+            <h6>Tipo de Comprobante</h6>
+        </div>
+        <div class="mt-auto">
+            <div class="row mx-2">
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="document_type" id="I" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary btn-sm" for="I">Ingresos</label>
 
-                <input type="radio" class="btn-check" name="document_type" id="E" autocomplete="off">
-                <label class="btn btn-outline-primary btn-sm" for="E">Egresos</label>
+                    <input type="radio" class="btn-check" name="document_type" id="E" autocomplete="off">
+                    <label class="btn btn-outline-primary btn-sm" for="E">Egresos</label>
 
-                <input type="radio" class="btn-check" name="document_type" id="N" autocomplete="off">
-                <label class="btn btn-outline-primary btn-sm" for="N">Nómina</label>
+                    <input type="radio" class="btn-check" name="document_type" id="N" autocomplete="off">
+                    <label class="btn btn-outline-primary btn-sm" for="N">Nómina</label>
 
-                <input type="radio" class="btn-check" name="document_type" id="P" autocomplete="off">
-                <label class="btn btn-outline-primary btn-sm" for="P">Complementos de Pago</label>
+                    <input type="radio" class="btn-check" name="document_type" id="P" autocomplete="off">
+                    <label class="btn btn-outline-primary btn-sm" for="P">Complementos de Pago</label>
 
-                <input type="radio" class="btn-check" name="document_type" id="T" autocomplete="off">
-                <label class="btn btn-outline-primary btn-sm" for="T">Traslado</label>
+                    <input type="radio" class="btn-check" name="document_type" id="T" autocomplete="off">
+                    <label class="btn btn-outline-primary btn-sm" for="T">Traslado</label>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-3">
-        <h6>Emitdas o Recibidas</h6>
 
-        <div class="row mx-2">
-            <div class="btn-group" role="group" ">
-                <input type="radio" class="btn-check" name="type" id="emit" autocomplete="off" checked>
-                <label class="btn btn-outline-primary btn-sm" for="emit">Emitidos</label>
+    <div class="col-3 d-flex flex-column">
+        <div>
+            <h6>Emitidas o Recibidas</h6>
+        </div>
+        <div class="mt-auto">
+            <div class="row mx-2">
+                <div class="btn-group" role="group">
+                    <input type="radio" class="btn-check" name="type" id="emit" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary btn-sm" for="emit">Emitidos</label>
 
-                <input type="radio" class="btn-check" name="type" id="receive" autocomplete="off">
-                <label class="btn btn-outline-primary btn-sm" for="receive">Recibidos</label>
+                    <input type="radio" class="btn-check" name="type" id="receive" autocomplete="off">
+                    <label class="btn btn-outline-primary btn-sm" for="receive">Recibidos</label>
+                </div>
             </div>
         </div>
     </div>
 </form>
+
 
 <div class="row">
     <div class="col-4 mx-auto text-center">
@@ -259,24 +271,20 @@
                 method: 'POST',
                 data: data,
                 success: function(response) {
-                    if (response.success && response.stats) {
-                        const emited = response.stats.emited;
-                        const received = response.stats.received;
+                    const emited = response.stats.emited;
+                    const received = response.stats.received;
 
-                        $('#emited_total').text(emited.total);
-                        $('#emited_revenues').text(emited.revenues);
-                        $('#emited_payrolls').text(emited.payrolls);
-                        $('#emited_payment_supplements').text(emited.payment_supplements);
-                        $('#emited_translates').text(emited.translates);
+                    $('#emited_total').text(emited.total);
+                    $('#emited_revenues').text(emited.revenues);
+                    $('#emited_payrolls').text(emited.payrolls);
+                    $('#emited_payment_supplements').text(emited.payment_supplements);
+                    $('#emited_translates').text(emited.translates);
 
-                        $('#received_total').text(received.total);
-                        $('#received_revenues').text(received.revenues);
-                        $('#received_payrolls').text(received.payrolls);
-                        $('#received_payment_supplements').text(received.payment_supplements);
-                        $('#received_translates').text(received.translates);
-                    } else {
-                        showToast('Datos inválidos en la respuesta', 'warning');
-                    }
+                    $('#received_total').text(received.total);
+                    $('#received_revenues').text(received.revenues);
+                    $('#received_payrolls').text(received.payrolls);
+                    $('#received_payment_supplements').text(received.payment_supplements);
+                    $('#received_translates').text(received.translates);
                 },
                 error: function() {
                     showToast('Error al obtener estadísticas', 'error');
