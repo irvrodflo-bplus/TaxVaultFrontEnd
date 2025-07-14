@@ -12,7 +12,8 @@ try {
     $service = VaultService::getInstance();
 
     $result = match ($operation) {
-        'index'  => $service->getAll(),
+        'updateEmited' => $service->getEmitted($data),
+        'updateReceived' => $service->getReceived($data),
         default  => throw new RuntimeException('Invalid métod', 400)
     };
     echo json_encode($result);

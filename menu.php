@@ -10,6 +10,86 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- AdminLTE CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- SheetJS for Excel export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    <style>
+        .info-icon {
+            color: #17a2b8;
+            margin-left: 5px;
+        }
+        .filter-buttons .btn {
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .status-tabs .nav-link {
+            color: #6c757d;
+            border: none;
+            background: none;
+            padding: 8px 16px;
+        }
+        .status-tabs .nav-link.active {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            background: none;
+        }
+        .table-responsive {
+            border: 1px solid #dee2e6;
+        }
+        .cfdi-id {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            color: #495057;
+        }
+        .expand-btn {
+            background: none;
+            border: none;
+            color: #6c757d;
+            cursor: pointer;
+        }
+        .expand-btn:hover {
+            color: #007bff;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-message {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .success-message {
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        .debug-info {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -46,11 +126,11 @@
                                 Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading">CFDI Manager</div>
-                            <a class="nav-link collapsed" href="#">
+                            <a class="nav-link collapsed" href="emited.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Emitidos
                             </a>
-                            <a class="nav-link collapsed" href="#">
+                            <a class="nav-link collapsed" href="received.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Recibidos
                             </a>

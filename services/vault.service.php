@@ -2,6 +2,10 @@
 require_once __DIR__ . '/../core/api.php';
 require_once __DIR__ . '/../core/base.service.php'; 
 require_once __DIR__ . '/../core/http-client.php';
+require __DIR__ . '/../php/cfdi_webservice_fixed.php';
+require __DIR__ . '/../php/cfdi_webservice_fixed_re.php';
+
+
 
 class VaultService extends BaseService {
     private $httpClient;
@@ -32,6 +36,19 @@ class VaultService extends BaseService {
         $response = $this->httpClient->post('report', $data);
         $this->validateResponse($response);
         return $response['data'];
+    }
+
+    public function getEmitted(array $data): array {
+        $rfc = 'GAF220603TC4';
+        $response = descargarCFDIsEmitidos($data['start_date'], $data['end_date'], $rfc);
+        return $response;
+    }
+
+
+    public function getReceived(array $data): array {
+        $rfc = 'GAF220603TC4';
+        $response = descargarCFDIsRecibidos($data['start_date'], $data['end_date'], $rfc);
+        return $response;
     }
 
     private function __clone() {}
