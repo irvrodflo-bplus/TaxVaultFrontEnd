@@ -83,98 +83,101 @@
     </div>
 </section>
 
-<section>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-primary text-white mb-4">
-                <div id="emited_total" class="card-body fs-3 text-center"><?= $emited['total'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    CFDI's Emitidos
-                </div>
+<section class="mb-5">
+    <div class="row align-items-start">
+        <!-- Gráfica Emitidos -->
+        <div class="col-md-4 mb-4">
+            <h4 class="text-center">Emitidos</h4>
+            <div class="chart-container">
+                <canvas id="chartEmitted"></canvas>
             </div>
         </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-secondary text-white mb-4">
-                <div id="emited_revenues" class="card-body fs-3 text-center"><?= $emited['revenues'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Ingresos Emitidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-success text-white mb-4">
-                <div id="emited_payrolls" class="card-body fs-3 text-center"><?= $emited['payrolls'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Nómina Emitidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-warning text-white mb-4">
-                <div id="emited_payment_supplements" class="card-body fs-3 text-center"><?= $emited['payment_supplements'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Complementos Emitidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-info text-white mb-4">
-                <div id="emited_translates" class="card-body fs-3 text-center"><?= $emited['translates'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Traslados Emitidos
-                </div>
-            </div>
-        </div>
-        <div class="col-1"></div>
-    </div>
 
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-primary text-white mb-4">
-                <div id="received_total" class="card-body fs-3 text-center"><?= $received['total'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    CFDI's Recibidos
+        <!-- Tarjetas Emitidos -->
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-primary text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $emited['total'] ?></div>
+                        <div class="card-footer text-center">CFDI's Emitidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-secondary text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $emited['revenues'] ?></div>
+                        <div class="card-footer text-center">Ingresos Emitidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-success text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $emited['payrolls'] ?></div>
+                        <div class="card-footer text-center">Nómina Emitidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-warning text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $emited['payment_supplements'] ?></div>
+                        <div class="card-footer text-center">Complementos Emitidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-info text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $emited['translates'] ?></div>
+                        <div class="card-footer text-center">Traslados Emitidos</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-secondary text-white mb-4">
-                <div id="received_revenues" class="card-body fs-3 text-center"><?= $received['revenues'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Ingresos Recibidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-success text-white mb-4">
-                <div id="received_payrolls" class="card-body fs-3 text-center"><?= $received['payrolls'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Nómina Recibidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-warning text-white mb-4">
-                <div id="received_payment_supplements" class="card-body fs-3 text-center"><?= $received['payment_supplements'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Complementos Recibidos
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-2 col-md-6">
-            <div class="card bg-info text-white mb-4">
-                <div id="received_translates" class="card-body fs-3 text-center"><?= $received['translates'] ?></div>
-                <div class="card-footer d-flex align-items-center justify-content-center">
-                    Traslados Recibidos
-                </div>
-            </div>
-        </div>
-        <div class="col-1"></div>
     </div>
 </section>
 
+<section class="mb-5">
+    <div class="row align-items-start">
+        <!-- Gráfica Recibidos -->
+        <div class="col-md-4 mb-4">
+            <h4 class="text-center">Recibidos</h4>
+            <div class="chart-container">
+                <canvas id="chartReceived"></canvas>
+            </div>
+        </div>
+
+        <!-- Tarjetas Recibidos -->
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-primary text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $received['total'] ?></div>
+                        <div class="card-footer text-center">CFDI's Recibidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-secondary text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $received['revenues'] ?></div>
+                        <div class="card-footer text-center">Ingresos Recibidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-success text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $received['payrolls'] ?></div>
+                        <div class="card-footer text-center">Nómina Recibidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-warning text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $received['payment_supplements'] ?></div>
+                        <div class="card-footer text-center">Complementos Recibidos</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card bg-info text-white mb-4">
+                        <div class="card-body fs-3 text-center"><?= $received['translates'] ?></div>
+                        <div class="card-footer text-center">Traslados Recibidos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <form id="dataForm" class="row mt-2 mb-5">
     <div class="col-4 d-flex flex-column">
@@ -266,7 +269,8 @@
                 start_date: startDate,
                 end_date: endDate
             };
-            showLoadingToast('Cargando estadisticas...');
+
+            showLoadingToast('Cargando estadísticas...');
 
             $.ajax({
                 url: `${baseUrl}/report_stats`,
@@ -276,6 +280,7 @@
                     const emited = response.stats.emited;
                     const received = response.stats.received;
 
+                    // Actualizar tarjetas
                     $('#emited_total').text(emited.total);
                     $('#emited_revenues').text(emited.revenues);
                     $('#emited_payrolls').text(emited.payrolls);
@@ -288,17 +293,22 @@
                     $('#received_payment_supplements').text(received.payment_supplements);
                     $('#received_translates').text(received.translates);
 
+                    // Actualizar gráficas
+                    chartEmitted.data.datasets[0].data = keys.map(k => emited[k]);
+                    chartEmitted.update();
+
+                    chartReceived.data.datasets[0].data = keys.map(k => received[k]);
+                    chartReceived.update();
+
                     closeLoadingToast();
                 },
                 error: function() {
                     closeLoadingToast();
-
                     showToast('Error al obtener estadísticas', 'error');
                 }
             });
         });
     }
-
 
     function onDownload(){
         const data = getFormValue();
@@ -394,4 +404,76 @@
 
         return formData;
     }
+</script>
+<script>
+    const emittedData = <?= json_encode($emited); ?>;
+    const receivedData = <?= json_encode($received); ?>;
+
+    const labels = ['Nóminas', 'Complementos de pago', 'Ingresos', 'Traslados'];
+    const keys = ['payrolls', 'payment_supplements', 'revenues', 'translates'];
+
+    const backgroundColors = [
+        '#198754', 
+        '#ffc107', 
+        '#adb5bd', 
+        '#0dcaf0' 
+    ];
+
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: {
+                    font: {
+                        size: 10
+                    }
+                }
+            },
+            tooltip: {
+                bodyFont: {
+                    size: 12
+                }
+            }
+        }
+    };
+
+    let chartEmitted, chartReceived;
+
+    function renderChartInstances() {
+        const emittedValues = keys.map(k => emittedData[k]);
+        const receivedValues = keys.map(k => receivedData[k]);
+
+        const emittedCtx = document.getElementById('chartEmitted').getContext('2d');
+        const receivedCtx = document.getElementById('chartReceived').getContext('2d');
+
+        chartEmitted = new Chart(emittedCtx, {
+            type: 'doughnut',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Emitidos',
+                    data: emittedValues,
+                    backgroundColor: backgroundColors
+                }]
+            },
+            options: options
+        });
+
+        chartReceived = new Chart(receivedCtx, {
+            type: 'doughnut',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Recibidos',
+                    data: receivedValues,
+                    backgroundColor: backgroundColors
+                }]
+            },
+            options: options
+        });
+    }
+    
+    renderChartInstances();
 </script>

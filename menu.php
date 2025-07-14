@@ -89,6 +89,11 @@
             max-height: 300px;
             overflow-y: auto;
         }
+        .chart-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
     </style>
     </head>
     <body class="sb-nav-fixed">
