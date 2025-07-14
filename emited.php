@@ -103,13 +103,18 @@
                         </div>
                     </div>
                     
-                    <div class="filter-buttons mb-3">
-                        <button class="btn btn-primary btn-sm" data-filter="vigentes">Vigentes</button>
-                        <button class="btn btn-outline-secondary btn-sm" data-filter="cancelados">Cancelados</button>
-                        <button class="btn btn-outline-secondary btn-sm" data-filter="todos">Todos</button>
-                        <button class="btn btn-outline-secondary btn-sm" data-filter="pue">PUE</button>
-                        <button class="btn btn-outline-secondary btn-sm" data-filter="ppd">PPD</button>
-                        <button class="btn btn-primary btn-sm" data-filter="todos-tipos">Todos</button>
+                    <div class="filter-buttons mb-3 d-flex flex-wrap gap-4o">
+                        <div class="btn-group me-3" role="group" aria-label="Filtrado por estado">
+                            <button class="btn btn-primary btn-sm" data-filter="vigentes">Vigentes</button>
+                            <button class="btn btn-outline-secondary btn-sm" data-filter="cancelados">Cancelados</button>
+                            <button class="btn btn-outline-secondary btn-sm" data-filter="todos">Todos</button>
+                        </div>
+
+                        <div class="btn-group" role="group" aria-label="Filtrado por método de pago">
+                            <button class="btn btn-outline-secondary btn-sm" data-filter="pue">PUE</button>
+                            <button class="btn btn-outline-secondary btn-sm" data-filter="ppd">PPD</button>
+                            <button class="btn btn-primary btn-sm" data-filter="todos-tipos">Todos</button>
+                        </div>
                     </div>
 
                     <!-- Status Tabs -->
@@ -149,6 +154,7 @@
                                     <th>Tipo</th>
                                     <th>Conteo de CFDIs</th>
                                     <th>Subtotal</th>
+                                    <th>IVA</th>
                                     <th>Descuento</th>
                                     <th>Total</th>
                                 </tr>
@@ -158,6 +164,7 @@
                                     <td>Filtrados</td>
                                     <td id="total-count">0</td>
                                     <td id="total-subtotal">$0.00</td>
+                                    <td id="total-iva">$0.00</td>
                                     <td id="total-descuento">$0.00</td>
                                     <td id="total-total">$0.00</td>
                                 </tr>
@@ -190,6 +197,7 @@
                                     <th>Subtotal</th>
                                     <th>Descuento</th>
                                     <th>Total</th>
+                                    <th>Relacionados</th>
                                     <th>Estado</th>
                                 </tr>
                             </thead>
@@ -204,6 +212,25 @@
         </div>
     </section>
 </div>
+
+<div class="modal fade" id="uuidRelacionadosModal" tabindex="-1" aria-labelledby="uuidRelacionadosModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="uuidRelacionadosModalLabel">UUID Relacionados</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body" id="uuidRelacionadosBody">
+                <!-- UUIDs aquí -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script>
 // Configuración global
 const API_BASE_URL = 'php/api.php';
@@ -377,7 +404,10 @@ const DataManager = {
             
             this.actualizarTabla();
             this.actualizarTotales();
-            this.actualizarContadores();
+
+            if (!filtros.tipo_comprobante) {
+                this.actualizarContadores();
+            }
             
             Utils.mostrarMensaje(`Se cargaron ${currentData.length} registros exitosamente`, 'success');
             
@@ -418,7 +448,7 @@ const DataManager = {
         this.cargarDatos(filtrosActivos);
     },
 
-    actualizarTabla: function() {
+    actualizarTabla: function () {
         const tbody = document.getElementById('cfdisTableBody');
         tbody.innerHTML = '';
 
@@ -434,6 +464,14 @@ const DataManager = {
 
         pageData.forEach((cfdi, index) => {
             const realIndex = startIndex + index;
+
+            const relacionados = cfdi.uuid_relacionado ? [cfdi.uuid_relacionado] : [];
+
+            let relacionadosHTML = 'Sin registros';
+            if (relacionados.length > 0) {
+                relacionadosHTML = relacionados[0];
+            }
+
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td style="white-space: nowrap;">
@@ -456,6 +494,7 @@ const DataManager = {
                 <td>${Utils.formatearMoneda(cfdi.subtotal)}</td>
                 <td>${Utils.formatearMoneda(cfdi.descuento)}</td>
                 <td>${Utils.formatearMoneda(cfdi.total)}</td>
+                <td>${relacionadosHTML}</td>
                 <td>
                     <span class="badge ${cfdi.status_sat === 'Vigente' ? 'badge-success' : 'badge-danger'}">
                         ${cfdi.status_sat}
@@ -622,23 +661,37 @@ const DataManager = {
             }
         });
     },
+    mostrarModalRelacionados: function(index) {
+        const cfdi = filteredData[index];
+        const relacionados = cfdi.uuid_relacionados || [];
 
+        const modalBody = document.getElementById('uuidRelacionadosBody');
+        modalBody.innerHTML = relacionados.length
+            ? `<ul class="list-group">${relacionados.map(uuid => `<li class="list-group-item">${uuid}</li>`).join('')}</ul>`
+            : '<p class="text-muted">No hay UUID relacionados.</p>';
+
+        const modal = new bootstrap.Modal(document.getElementById('uuidRelacionadosModal'));
+        modal.show();
+    },
     actualizarTotales: function() {
         const totales = filteredData.reduce((acc, item) => {
             acc.count++;
             acc.subtotal += parseFloat(item.subtotal || 0);
             acc.descuento += parseFloat(item.descuento || 0);
             acc.total += parseFloat(item.total || 0);
+
+            acc.iva += parseFloat(item.IVATrasladado0 || 0) + parseFloat(item.IVATrasladado16 || 0);
+
             return acc;
-        }, { count: 0, subtotal: 0, descuento: 0, total: 0 });
+        }, { count: 0, subtotal: 0, descuento: 0, total: 0, iva: 0 });
 
         document.getElementById('total-count').textContent = totales.count;
         document.getElementById('total-subtotal').textContent = Utils.formatearMoneda(totales.subtotal);
         document.getElementById('total-descuento').textContent = Utils.formatearMoneda(totales.descuento);
         document.getElementById('total-total').textContent = Utils.formatearMoneda(totales.total);
+        document.getElementById('total-iva').textContent = Utils.formatearMoneda(totales.iva);
         document.getElementById('total-registros').textContent = `${totales.count} registros`;
     },
-
     actualizarContadores: function() {
         const contadores = currentData.reduce((acc, item) => {
             const tipo = item.tipo_comprobante;
@@ -646,7 +699,6 @@ const DataManager = {
             return acc;
         }, {});
 
-        // Actualizar tabs de estado
         document.querySelectorAll('[data-status]').forEach(tab => {
             const status = tab.getAttribute('data-status');
             let count = 0;
@@ -665,12 +717,9 @@ const DataManager = {
     }
 };
 
-// Event Listeners
 document.addEventListener('DOMContentLoaded', function() {
-    // Cargar datos iniciales
     cargarDatos();
 
-    // Filtros de botones
     document.querySelectorAll('[data-filter]').forEach(button => {
         button.addEventListener('click', function() {
             const filter = this.getAttribute('data-filter');
@@ -749,6 +798,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('periodFilter').addEventListener('change', function() {
         currentFilters.periodo = this.value;
         DataManager.aplicarFiltros();
+        DataManager.actualizarContadores();
     });
 });
 
