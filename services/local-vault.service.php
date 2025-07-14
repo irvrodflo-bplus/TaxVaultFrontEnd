@@ -5,7 +5,7 @@ require_once __DIR__ . '/../core/http-client.php';
 require __DIR__ . '/../php/cfdi_webservice_fixed.php';
 require __DIR__ . '/../php/cfdi_webservice_fixed_re.php';
 
-class VaultService extends BaseService {
+class LocalVaultService extends BaseService {
     private $httpClient;
     private $apiBaseUrl;
 
@@ -13,7 +13,7 @@ class VaultService extends BaseService {
 
     private function __construct() {
         global $API_BASE_URL;
-        $this->apiBaseUrl = $API_BASE_URL . '/pac';
+        $this->apiBaseUrl = $API_BASE_URL . '/local_vault';
         $this->httpClient = new HttpClient($this->apiBaseUrl);
     }
 

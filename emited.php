@@ -338,7 +338,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=filtrar-cfdis`, {
             method: 'POST',
             body: JSON.stringify({
-                limite: 1000,
+                limite: 10000,
                 offset: 0,
                 ...filtros
             })
@@ -475,14 +475,25 @@ const DataManager = {
 
         if (totalPages <= 1) return;
 
+        const wrapper = document.createElement('div');
+        wrapper.className = 'd-flex justify-content-between align-items-center flex-wrap p-2 w-100 gap-2';
+
+        const btnGroup = document.createElement('div');
+        btnGroup.className = 'd-flex align-items-center flex-wrap gap-1 me-auto';
+
         const crearBoton = (text, page, disabled = false, active = false) => {
             const btn = document.createElement('button');
             btn.textContent = text;
-            btn.className = 'btn mx-1 ' + (active ? 'btn-primary' : 'btn-outline-primary');
+            btn.className = 'btn btn-sm ' + (active ? 'btn-primary' : 'btn-outline-primary');
             btn.disabled = disabled;
             btn.onclick = () => {
                 this.currentPage = page;
                 this.actualizarTabla();
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             };
             return btn;
         };
@@ -494,42 +505,43 @@ const DataManager = {
             return span;
         };
 
-        // Botón anterior
-        container.appendChild(
+        btnGroup.appendChild(
             crearBoton('Anterior', this.currentPage - 1, this.currentPage === 1)
         );
 
         let start = Math.max(1, this.currentPage - 2);
         let end = Math.min(totalPages, this.currentPage + 2);
 
-        // Mostrar primera página si no está en el rango
         if (start > 1) {
-            container.appendChild(crearBoton('1', 1, false, this.currentPage === 1));
-            if (start > 2) {
-                container.appendChild(crearEllipsis());
-            }
+            btnGroup.appendChild(crearBoton('1', 1, false, this.currentPage === 1));
+            if (start > 2) btnGroup.appendChild(crearEllipsis());
         }
 
         for (let i = start; i <= end; i++) {
-            container.appendChild(crearBoton(i, i, false, i === this.currentPage));
+            btnGroup.appendChild(crearBoton(i, i, false, i === this.currentPage));
         }
 
-        // Mostrar última página si no está en el rango
         if (end < totalPages) {
-            if (end < totalPages - 1) {
-                container.appendChild(crearEllipsis());
-            }
-            container.appendChild(
-                crearBoton(totalPages, totalPages, false, this.currentPage === totalPages)
-            );
+            if (end < totalPages - 1) btnGroup.appendChild(crearEllipsis());
+            btnGroup.appendChild(crearBoton(totalPages, totalPages, false, this.currentPage === totalPages));
         }
 
-        // Botón siguiente
-        container.appendChild(
+        btnGroup.appendChild(
             crearBoton('Siguiente', this.currentPage + 1, this.currentPage === totalPages)
         );
-    },
 
+        const totalItems = filteredData.length;
+        const startItem = (this.currentPage - 1) * this.pageSize + 1;
+        const endItem = Math.min(startItem + this.pageSize - 1, totalItems);
+
+        const info = document.createElement('div');
+        info.className = 'text-muted small text-end';
+        info.textContent = `Mostrando ${startItem} a ${endItem} de ${totalItems} resultados`;
+
+        wrapper.appendChild(btnGroup);
+        wrapper.appendChild(info);
+        container.appendChild(wrapper);
+    },
     mostrarDetalle: function(index) {
         const cfdi = filteredData[index];
         if (!cfdi) {
@@ -900,7 +912,7 @@ function exportarExcel() {
             success: function (response) {
                 closeLoader();
                 showToast('Información sincronizada con éxito', 'success');
-                DataManager.cargarDatos();
+                DataManager.aplicarFiltros();
             },
             error: function (xhr, status, error) {
                 closeLoader();

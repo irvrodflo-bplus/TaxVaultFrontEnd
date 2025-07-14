@@ -1,9 +1,9 @@
 <?php 
-    require __DIR__ . '/services/vault.service.php';
+    require __DIR__ . '/services/local-vault.service.php';
 
     global $API_BASE_URL;
 
-    $service = VaultService::getInstance();
+    $service = LocalVaultService::getInstance();
 
     $endDate = date('Y-m-d');
     $startDate = date('Y-m-d', strtotime('-1 month'));
