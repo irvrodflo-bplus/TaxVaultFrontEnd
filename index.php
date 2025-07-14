@@ -22,66 +22,66 @@
 
 <?php require   __DIR__ . '/menu.php' ?>
 
-<section class="row mt-3">
-    <h3 class="text-muted">Datos Fiscales</h3>
+<section class="my-4">
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-white d-flex align-items-center w-100">
+            <button class="btn btn-sm btn-outline-secondary" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#fiscalDataCollapse"
+                aria-expanded="true"
+                aria-controls="fiscalDataCollapse">
+                <i class="fas fa-chevron-up" id="toggleIcon"></i>
+            </button>
+            <h5 class="mb-0 ml-2 text-muted">Datos Fiscales</h5>
+        </div>
 
-    <div class="row mb-3">
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="rfc">RFC</span>
-                <input value="EKU9003173C9" type="text" class="form-control" disabled>
-            </div>
-        </div>
-        <div class="col-8">
-            <div class="input-group">
-                <span class="input-group-text" id="reason">Razón Social</span>
-                <input value="ESCUELA KEMPER URGATE" type="text" class="form-control" disabled>
-            </div>
-        </div>
-    </div>
+        <div class="collapse show" id="fiscalDataCollapse">
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">RFC</div>
+                        <div class="fw-semibold">EKU9003173C9</div>
+                    </div>
+                    <div class="col-md-8 mb-2">
+                        <div class="text-muted small">Razón Social</div>
+                        <div class="fw-semibold">ESCUELA KEMPER URGATE</div>
+                    </div>
+                </div>
 
-    <div class="row mb-3">
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="cp">Código Postal</span>
-                <input value="12345" type="text" class="form-control" disabled>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="street">Calle</span>
-                <input value="Avenida Principal" type="text" class="form-control" disabled>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="neighborhood">Colonia</span>
-                <input value="Centro" type="text" class="form-control" disabled>
-            </div>
-        </div>
-    </div>
+                <div class="row mb-3">
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">Código Postal</div>
+                        <div class="fw-semibold">12345</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">Calle</div>
+                        <div class="fw-semibold">Avenida Principal</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">Colonia</div>
+                        <div class="fw-semibold">Centro</div>
+                    </div>
+                </div>
 
-    <div class="row mb-5">
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="city">Municipio</span>
-                <input value="Ciudad" type="text" class="form-control" disabled>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="state">Estado</span>
-                <input value="Estado" type="text" class="form-control" disabled>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="input-group">
-                <span class="input-group-text" id="extNumber">No. Exterior</span>
-                <input value="100" type="text" class="form-control" disabled>
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">Municipio</div>
+                        <div class="fw-semibold">Ciudad</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">Estado</div>
+                        <div class="fw-semibold">Estado</div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="text-muted small">No. Exterior</div>
+                        <div class="fw-semibold">100</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <section class="mb-5">
     <div class="row align-items-start">
@@ -204,7 +204,7 @@
         </div>
         <div class="mt-auto">
             <div class="row mx-2">
-                <div class="btn-group" role="group">
+                <div class="btn-group mb-3" role="group">
                     <input type="radio" class="btn-check" name="document_type" id="I" autocomplete="off" checked>
                     <label class="btn btn-outline-primary btn-sm" for="I">Ingresos</label>
 
@@ -230,7 +230,7 @@
         </div>
         <div class="mt-auto">
             <div class="row mx-2">
-                <div class="btn-group" role="group">
+                <div class="btn-group mb-3" role="group">
                     <input type="radio" class="btn-check" name="type" id="emit" autocomplete="off" checked>
                     <label class="btn btn-outline-primary btn-sm" for="emit">Emitidos</label>
 
@@ -293,7 +293,6 @@
                     $('#received_payment_supplements').text(received.payment_supplements);
                     $('#received_translates').text(received.translates);
 
-                    // Actualizar gráficas
                     chartEmitted.data.datasets[0].data = keys.map(k => emited[k]);
                     chartEmitted.update();
 
@@ -474,6 +473,6 @@
             options: options
         });
     }
-    
+
     renderChartInstances();
 </script>
