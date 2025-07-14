@@ -338,7 +338,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=filtrar-cfdis`, {
             method: 'POST',
             body: JSON.stringify({
-                limite: 1000,
+                limite: 10000,
                 offset: 0,
                 ...filtros
             })

@@ -296,6 +296,7 @@
 
     function onDownload(){
         const data = getFormValue();
+        showLoader();
 
         $.ajax({
             url: `${baseUrl}/download_files`,
@@ -305,6 +306,8 @@
                 responseType: 'blob' 
             },
             success: function(res, status, xhr) {
+                closeLoader();
+
                 const today = new Date();
                 const year = today.getFullYear();
                 const month = String(today.getMonth() + 1).padStart(2, '0');    
@@ -321,6 +324,8 @@
                 window.URL.revokeObjectURL(url);
             },
             error: function(xhr) {
+                closeLoader();
+
                 showToast('Error al descargar .zip', 'error');
             }
         });
@@ -328,6 +333,7 @@
 
     function onExport(){
         const data = getFormValue();
+        showLoader();
 
         $.ajax({
             url: `${baseUrl}/export_report`,
@@ -337,6 +343,8 @@
                 responseType: 'blob' 
             },
             success: function(res, status, xhr) {
+                closeLoader();
+
                 const today = new Date();
                 const year = today.getFullYear();
                 const month = String(today.getMonth() + 1).padStart(2, '0');    
@@ -353,6 +361,8 @@
                 window.URL.revokeObjectURL(url);
             },
             error: function(xhr) {
+                closeLoader();
+                
                 showToast('Error al descargar el archivo', 'error');
             }
         });

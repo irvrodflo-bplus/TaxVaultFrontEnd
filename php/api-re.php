@@ -206,7 +206,7 @@ class CFDIApi {
     
     private function obtenerCFDIs() {
         try {
-            $limite = (int)($_GET['limite'] ?? 1000);
+            $limite = (int)($_GET['limite'] ?? 10000);
             $offset = (int)($_GET['offset'] ?? 0);
             
             $this->log("Obteniendo CFDIs: limite=$limite, offset=$offset");

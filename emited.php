@@ -880,7 +880,6 @@ function exportarExcel() {
 
         showLoader();
 
-
         const [year, month] = period.split('-');
         const start_date = `${year}-${month}-01`;
         const end_date = `${year}-${month}-${new Date(year, month, 0).getDate()}`;
