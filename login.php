@@ -7,13 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Bóveda Fiscal</title>
-    
-    <!-- CSS -->
-    <link href="./dist/css/style.min.css" rel="stylesheet">
-    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="./assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <link href="./assets/libs/morris.js/morris.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/extra-libs/css/css.css">
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -212,7 +206,7 @@
                         </div>
 
                         <div class="form-group-custom text-center">
-                            <button class="btn-custom" type="submit" id="inicio-sesion">
+                            <button onclick="login()" class="btn-custom" type="submit" id="inicio-sesion">
                                 Iniciar sesión
                             </button>
                         </div>
@@ -223,16 +217,13 @@
         <!-- End Login box -->
     </div>
 
-    <!-- JavaScript -->
-    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
-    <!-- FontAwesome -->
-    <script defer 
-            src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
-            integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
-            crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <script src="./assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="./assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        function login() {
+           window.location.href = 'index.php';
+        }
+    </script>
 </body>
 </html>

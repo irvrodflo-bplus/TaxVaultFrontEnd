@@ -22,6 +22,12 @@ class VaultService extends BaseService {
         return self::$instance;
     }
 
+    public function getStats(array $data): array {
+        $response = $this->httpClient->post('report_stats', $data);
+        $this->validateResponse($response);
+        return $response['data'];
+    } 
+
     public function getReport(array $data): array {
         $response = $this->httpClient->post('report', $data);
         $this->validateResponse($response);
