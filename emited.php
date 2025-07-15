@@ -960,9 +960,34 @@ function exportarExcel() {
             }),
             contentType: 'application/json',
             success: function (response) {
+                const body = {
+                    updated: response.actualizados,
+                    errors: response.errores,
+                    inserted: response.insertados
+                };
+
+                DataManager.aplicarFiltros();
+                saveRecord(body);
+            },
+            error: function (xhr, status, error) {
+                closeLoader();
+                showToast('Error al sincronizar información', 'error')
+            }
+        });
+    }
+
+    function saveRecord(data) {
+        $.ajax({
+            url: '/endpoints/sync.endpoint.php', 
+            method: 'POST',
+            data: JSON.stringify({
+                data,
+                operation: 'create',
+            }),
+            contentType: 'application/json',
+            success: function (response) {
                 closeLoader();
                 showToast('Información sincronizada con éxito', 'success');
-                DataManager.aplicarFiltros();
             },
             error: function (xhr, status, error) {
                 closeLoader();

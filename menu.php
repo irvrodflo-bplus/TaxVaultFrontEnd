@@ -151,6 +151,11 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Artículo 69-B CFF
                             </a>
+                            <div class="sb-sidenav-menu-heading">Infoemadin</div>
+                            <a class="nav-link collapsed" href="sync-history.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                               Historial de Sincronizaciones
+                            </a>
                             <!-- 
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
