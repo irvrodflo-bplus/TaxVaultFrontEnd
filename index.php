@@ -215,7 +215,7 @@
                     <label class="btn btn-outline-primary btn-sm" for="N">Nómina</label>
 
                     <input type="radio" class="btn-check" name="document_type" id="P" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="P">Complementos de Pago</label>
+                    <label class="btn btn-outline-primary btn-sm" for="P">Pago</label>
 
                     <input type="radio" class="btn-check" name="document_type" id="T" autocomplete="off">
                     <label class="btn btn-outline-primary btn-sm" for="T">Traslado</label>

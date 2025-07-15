@@ -199,6 +199,10 @@
                                     <th>Total</th>
                                     <th>Relacionados</th>
                                     <th>Estado</th>
+                                    <th>Estatus SAT</th>
+                                    <th>Es Cancelable</th>
+                                    <th>Estatus Cancelación</th>
+                                    <th>Validación EFOS</th>
                                 </tr>
                             </thead>
                             <tbody id="cfdisTableBody">
@@ -478,9 +482,6 @@ const DataManager = {
                     <button class="expand-btn mr-2" onclick="DataManager.mostrarDetalle(${realIndex})" title="Ver detalles">
                         <i class="fas fa-plus" id="icon-${realIndex}"></i>
                     </button>
-                    <button class="btn btn-info btn-sm" onclick="DataManager.mostrarStatus(${realIndex})" title="Mostrar Status">
-                        <i class="fas fa-info-circle"></i>
-                    </button>
                 </td>
                 <td title="${cfdi.uuid}">${Utils.truncarTexto(cfdi.uuid, 20)}</td>
                 <td>${Utils.formatearFecha(cfdi.fecha_expedicion)}</td>
@@ -495,10 +496,77 @@ const DataManager = {
                 <td>${Utils.formatearMoneda(cfdi.descuento)}</td>
                 <td>${Utils.formatearMoneda(cfdi.total)}</td>
                 <td>${relacionadosHTML}</td>
-                <td>
+                <td style="text-align:center; vertical-align: middle;">
                     <span class="badge ${cfdi.status_sat === 'Vigente' ? 'badge-success' : 'badge-danger'}">
                         ${cfdi.status_sat}
                     </span>
+                </td>
+
+                <!-- Código de Estatus -->
+                <td style="text-align:center; vertical-align: middle;">
+                    ${(() => {
+                        switch(cfdi.codigo_estatus) {
+                            case 'S':
+                                return `<span class="badge bg-success" title="Correcto"><i class="fas fa-check-circle"></i> S</span>`;
+                            case 'N-601':
+                            case 'N-602':
+                                return `<span class="badge bg-danger" title="Error código ${cfdi.codigo_estatus}"><i class="fas fa-exclamation-triangle"></i> ${cfdi.codigo_estatus}</span>`;
+                            default:
+                                return `<span class="badge bg-secondary">-</span>`;
+                        }
+                    })()}
+                </td>
+
+                <!-- Es Cancelable -->
+                <td style="text-align:center; vertical-align: middle;">
+                    ${(() => {
+                        switch(cfdi.es_cancelable) {
+                            case 'No cancelable':
+                                return `<span class="badge bg-secondary" title="No cancelable"><i class="fas fa-lock"></i></span>`;
+                            case 'Cancelable sin aceptación':
+                                return `<span class="badge bg-warning text-dark" title="Cancelable sin aceptación"><i class="fas fa-clock"></i></span>`;
+                            case 'Cancelable con aceptación':
+                                return `<span class="badge bg-success" title="Cancelable con aceptación"><i class="fas fa-check"></i></span>`;
+                            default:
+                                return `<span class="badge bg-secondary">-</span>`;
+                        }
+                    })()}
+                </td>
+
+                <!-- Estatus Cancelación -->
+                <td style="text-align:center; vertical-align: middle;">
+                    ${(() => {
+                        switch(cfdi.estatus_cancelacion) {
+                            case null:
+                            case '':
+                                return `<span class="badge bg-info">Sin cancelar</span>`;
+                            case 'Cancelado sin aceptación':
+                                return `<span class="badge bg-warning text-dark"><i class="fas fa-exclamation-circle"></i> Cancelado sin aceptación</span>`;
+                            case 'En proceso':
+                                return `<span class="badge bg-primary"><i class="fas fa-spinner fa-spin"></i> En proceso</span>`;
+                            case 'Plazo vencido':
+                                return `<span class="badge bg-secondary"><i class="fas fa-times-circle"></i> Plazo vencido</span>`;
+                            case 'Cancelado con aceptación':
+                                return `<span class="badge bg-success"><i class="fas fa-check-circle"></i> Cancelado con aceptación</span>`;
+                            case 'Solicitud rechazada':
+                                return `<span class="badge bg-danger"><i class="fas fa-ban"></i> Solicitud rechazada</span>`;
+                            default:
+                                return `<span class="badge bg-secondary">-</span>`;
+                        }
+                    })()}
+                </td>
+
+                <!-- Validación EFOS -->
+                <td style="text-align:center; vertical-align: middle;">
+                    ${(() => {
+                        if (cfdi.validacion_efos === 100) {
+                            return `<span class="badge bg-danger"><i class="fas fa-exclamation-triangle"></i> En lista EFOS</span>`;
+                        } else if (cfdi.validacion_efos === 200) {
+                            return `<span class="badge bg-success"><i class="fas fa-check-circle"></i> No en lista EFOS</span>`;
+                        } else {
+                            return `<span class="badge bg-secondary">-</span>`;
+                        }
+                    })()}
                 </td>
             `;
             tbody.appendChild(row);
@@ -956,7 +1024,7 @@ function exportarExcel() {
             method: 'POST',
             data: JSON.stringify({
                 data,
-                operation: 'updateEmited',
+                operation: 'updateReceived',
             }),
             contentType: 'application/json',
             success: function (response) {

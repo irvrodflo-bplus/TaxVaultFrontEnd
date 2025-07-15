@@ -211,9 +211,17 @@ class CFDIApi {
             
             $this->log("Obteniendo CFDIs: limite=$limite, offset=$offset");
             
-            $sql = "SELECT *
-                    FROM cfdi_recibidos 
-                    ORDER BY fecha_expedicion DESC, created_at DESC 
+            $sql = "SELECT 
+                        cr.*,
+                        cer.codigo_estatus,
+                        cer.es_cancelable,
+                        cer.estatus_cancelacion,
+                        cer.validacion_efos,
+                        cer.fecha_consulta,
+                        cer.fecha_actualizacion
+                    FROM cfdi_recibidos cr
+                    LEFT JOIN cfdi_estados_r cer ON cer.id_cfdi = cr.uuid
+                    ORDER BY cr.fecha_expedicion DESC, cr.created_at DESC
                     LIMIT :limite OFFSET :offset";
             
             $stmt = $this->pdo->prepare($sql);
@@ -304,10 +312,18 @@ class CFDIApi {
             
             $whereClause = !empty($condiciones) ? 'WHERE ' . implode(' AND ', $condiciones) : '';
             
-            $sql = "SELECT *
-                    FROM cfdi_recibidos 
+            $sql = "SELECT 
+                        cr.*,
+                        cer.codigo_estatus,
+                        cer.es_cancelable,
+                        cer.estatus_cancelacion,
+                        cer.validacion_efos,
+                        cer.fecha_consulta,
+                        cer.fecha_actualizacion
+                    FROM cfdi_recibidos cr
+                    LEFT JOIN cfdi_estados_r cer ON cer.id_cfdi = cr.uuid
                     {$whereClause}
-                    ORDER BY fecha_expedicion DESC, created_at DESC 
+                    ORDER BY cr.fecha_expedicion DESC, cr.created_at DESC
                     LIMIT :limite OFFSET :offset";
             
             $stmt = $this->pdo->prepare($sql);

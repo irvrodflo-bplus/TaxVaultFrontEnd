@@ -14,7 +14,6 @@ try {
     $result = match ($operation) {
         'updateEmited' => $service->getEmitted($data),
         'updateReceived' => $service->getReceived($data),
-        'yearReport' => $service->getYearReport($data),
         'syncLast' => $service->syncLast(),
         default  => throw new RuntimeException('Invalid métod', 400)
     };
