@@ -14,6 +14,7 @@ try {
     $result = match ($operation) {
         'updateEmited' => $service->getEmitted($data),
         'updateReceived' => $service->getReceived($data),
+        'yearReport' => $service->getYearReport($data),
         default  => throw new RuntimeException('Invalid métod', 400)
     };
     echo json_encode($result);

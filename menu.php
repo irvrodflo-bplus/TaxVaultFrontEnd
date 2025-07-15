@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <!-- SheetJS for Excel export -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.min.css">
     
     <style>
         .info-icon {
@@ -130,6 +133,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
+                            <a class="nav-link collapsed" href="analythics.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Análisis
+                            </a>
                             <div class="sb-sidenav-menu-heading">CFDI Manager</div>
                             <a class="nav-link collapsed" href="emited.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -138,6 +145,11 @@
                             <a class="nav-link collapsed" href="received.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Recibidos
+                            </a>
+                            <div class="sb-sidenav-menu-heading">Contribuyentes</div>
+                            <a class="nav-link collapsed" href="efos.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Artículo 69-B CFF
                             </a>
                             <!-- 
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">

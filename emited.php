@@ -596,19 +596,19 @@ const DataManager = {
         const detallesHtml = `
             <table class="table table-sm table-bordered text-left" style="width:100%; font-size: 0.9em;">
                 <tbody>
-                    <tr><th>IVATrasladado0</th><td>${formatoMoneda(cfdi.IVATrasladado0)}</td></tr>
-                    <tr><th>IVATrasladado16</th><td>${formatoMoneda(cfdi.IVATrasladado16)}</td></tr>
-                    <tr><th>IVAExento</th><td>${formatoMoneda(cfdi.IVAExento)}</td></tr>
-                    <tr><th>IVARetenido</th><td>${formatoMoneda(cfdi.IVARetenido)}</td></tr>
-                    <tr><th>ISRRetenido</th><td>${formatoMoneda(cfdi.ISRRetenido)}</td></tr>
-                    <tr><th>IEPSTrasladado</th><td>${formatoMoneda(cfdi.IEPSTrasladado)}</td></tr>
-                    <tr><th>IEPSTrasladado0</th><td>${formatoMoneda(cfdi.IEPSTrasladado0)}</td></tr>
-                    <tr><th>IEPSTrasladado45</th><td>${formatoMoneda(cfdi.IEPSTrasladado45)}</td></tr>
-                    <tr><th>IEPSTrasladado54</th><td>${formatoMoneda(cfdi.IEPSTrasladado54)}</td></tr>
-                    <tr><th>IEPSTrasladado66</th><td>${formatoMoneda(cfdi.IEPSTrasladado66)}</td></tr>
-                    <tr><th>IEPSRetenido</th><td>${formatoMoneda(cfdi.IEPSRetenido)}</td></tr>
-                    <tr><th>LocalRetenido</th><td>${formatoMoneda(cfdi.LocalRetenido)}</td></tr>
-                    <tr><th>LocalTrasladado</th><td>${formatoMoneda(cfdi.LocalTrasladado)}</td></tr>
+                    <tr><th>IVA Trasladado 0%</th><td>${formatoMoneda(cfdi.IVATrasladado0)}</td></tr>
+                    <tr><th>IVA Trasladado 16%</th><td>${formatoMoneda(cfdi.IVATrasladado16)}</td></tr>
+                    <tr><th>IVA Exento</th><td>${formatoMoneda(cfdi.IVAExento)}</td></tr>
+                    <tr><th>IVA Retenido</th><td>${formatoMoneda(cfdi.IVARetenido)}</td></tr>
+                    <tr><th>ISR Retenido</th><td>${formatoMoneda(cfdi.ISRRetenido)}</td></tr>
+                    <tr><th>IEPS Trasladado</th><td>${formatoMoneda(cfdi.IEPSTrasladado)}</td></tr>
+                    <tr><th>IEPS Trasladado 0%</th><td>${formatoMoneda(cfdi.IEPSTrasladado0)}</td></tr>
+                    <tr><th>IEPS Trasladado 45%</th><td>${formatoMoneda(cfdi.IEPSTrasladado45)}</td></tr>
+                    <tr><th>IEPS Trasladado 54%</th><td>${formatoMoneda(cfdi.IEPSTrasladado54)}</td></tr>
+                    <tr><th>IEPS Trasladado 66%</th><td>${formatoMoneda(cfdi.IEPSTrasladado66)}</td></tr>
+                    <tr><th>IEPS Retenido</th><td>${formatoMoneda(cfdi.IEPSRetenido)}</td></tr>
+                    <tr><th>Local Retenido</th><td>${formatoMoneda(cfdi.LocalRetenido)}</td></tr>
+                    <tr><th>Local Trasladado</th><td>${formatoMoneda(cfdi.LocalTrasladado)}</td></tr>
                 </tbody>
             </table>
         `;

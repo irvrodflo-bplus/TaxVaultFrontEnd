@@ -42,6 +42,12 @@ class LocalVaultService extends BaseService {
         return $response;
     }
 
+    public function getYearReport(array $data): array {
+        $year = $data['year'];
+        $response = $this->httpClient->get("analythics/$year");
+        $this->validateResponse($response);
+        return $response['data'];
+    }
 
     public function getReceived(array $data): array {
         $rfc = 'GAF220603TC4';
