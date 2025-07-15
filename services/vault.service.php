@@ -42,11 +42,35 @@ class VaultService extends BaseService {
         return $response;
     }
 
-
     public function getReceived(array $data): array {
         $rfc = 'GAF220603TC4';
         $response = descargarCFDIsRecibidos($data['start_date'], $data['end_date'], $rfc);
         return $response;
+    }
+
+    public function syncLast(): array {
+        $rfc = 'GAF220603TC4';
+
+        $endDate = new DateTime(); 
+        $endDateStr = $endDate->format('Y-m-d');
+
+        $startDate = clone $endDate;
+        $startDate->modify('-3 days');
+        $startDateStr = $startDate->format('Y-m-d');
+
+        $data = [
+            'start_date' => $startDateStr,
+            'end_date'   => $endDateStr,
+        ];
+
+        $emited  = descargarCFDIsEmitidos($data['start_date'], $data['end_date'], $rfc);
+        $recived = descargarCFDIsRecibidos($data['start_date'], $data['end_date'], $rfc);
+
+        return [
+            'insertados'   => $emited['insertados'] + $recived['insertados'],
+            'actualizados' => $emited['actualizados'] + $recived['actualizados'],
+            'errores'      => $emited['errores'] + $recived['errores'],
+        ];
     }
 
     private function __clone() {}

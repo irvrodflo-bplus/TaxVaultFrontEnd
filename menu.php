@@ -97,6 +97,14 @@
             max-width: 400px;
             margin: 0 auto;
         }
+
+        .card-body::after,
+        .card-footer::after,
+        .card-header::after {
+            content: none !important;
+            clear: none !important;
+            display: initial !important;
+        }
     </style>
     </head>
     <body class="sb-nav-fixed">
@@ -118,7 +126,7 @@
                         <li><a class="dropdown-item" href="#!">Configuración</a></li>
                         <li><a class="dropdown-item" href="#!">Perfil</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Salir</a></li>
+                        <li><a class="dropdown-item" href="login.php">Salir</a></li>
                     </ul>
                 </li>
             </ul>
@@ -151,10 +159,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Artículo 69-B CFF
                             </a>
-                            <div class="sb-sidenav-menu-heading">Infoemadin</div>
+                            <div class="sb-sidenav-menu-heading">Información</div>
                             <a class="nav-link collapsed" href="sync-history.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                               Historial de Sincronizaciones
+                                Sincronizaciones
                             </a>
                             <!-- 
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
