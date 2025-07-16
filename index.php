@@ -13,242 +13,264 @@
         "end_date" => $endDate
     ];
 
-    $data = $service->getStats($data);
-    $stats = $data['stats'];
-
+    $response = $service->getStats($data);
+    $stats = $response['stats'];
     $received = $stats['received'];
     $emited = $stats['emited'];
 ?>
 
 <?php require   __DIR__ . '/menu.php' ?>
 
-<section class="my-4">
-    <div class="card border-0 shadow-sm">
-        <div class="card-header bg-white d-flex align-items-center w-100">
-            <button class="btn btn-sm btn-outline-secondary" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#fiscalDataCollapse"
-                aria-expanded="true"
-                aria-controls="fiscalDataCollapse">
-                <i class="fas fa-chevron-up" id="toggleIcon"></i>
-            </button>
-            <h5 class="mb-0 ml-2 text-muted">Datos Fiscales</h5>
-        </div>
+<div class="row">
+    <div class="col-3">
+        <section class="card border-0 shadow-sm my-4">
+            <div class="card-header bg-white d-flex align-items-center w-100">
+                <h5 class="mb-0 ml-2 text-muted">Periodo</h5>
+            </div>
 
-        <div class="collapse show" id="fiscalDataCollapse">
             <div class="card-body">
-                <div class="row mb-3">
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">RFC</div>
-                        <div class="fw-semibold">EKU9003173C9</div>
-                    </div>
-                    <div class="col-md-8 mb-2">
-                        <div class="text-muted small">Razón Social</div>
-                        <div class="fw-semibold">ESCUELA KEMPER URGATE</div>
-                    </div>
-                </div>
-
-                <div class="row mb-3">
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">Código Postal</div>
-                        <div class="fw-semibold">12345</div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">Calle</div>
-                        <div class="fw-semibold">Avenida Principal</div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">Colonia</div>
-                        <div class="fw-semibold">Centro</div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">Municipio</div>
-                        <div class="fw-semibold">Ciudad</div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">Estado</div>
-                        <div class="fw-semibold">Estado</div>
-                    </div>
-                    <div class="col-md-4 mb-2">
-                        <div class="text-muted small">No. Exterior</div>
-                        <div class="fw-semibold">100</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="mb-5">
-    <div class="row align-items-start">
-        <!-- Gráfica Emitidos -->
-        <div class="col-md-4 mb-4">
-            <h4 class="text-center">Emitidos</h4>
-            <div class="chart-container">
-                <canvas id="chartEmitted"></canvas>
-            </div>
-        </div>
-
-        <!-- Tarjetas Emitidos -->
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-primary text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $emited['total'] ?></div>
-                        <div class="card-footer text-center">CFDI's Emitidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-secondary text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $emited['revenues'] ?></div>
-                        <div class="card-footer text-center">Ingresos Emitidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-success text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $emited['payrolls'] ?></div>
-                        <div class="card-footer text-center">Nómina Emitidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-warning text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $emited['payment_supplements'] ?></div>
-                        <div class="card-footer text-center">Complementos Emitidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-info text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $emited['translates'] ?></div>
-                        <div class="card-footer text-center">Traslados Emitidos</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mb-5">
-    <div class="row align-items-start">
-        <!-- Gráfica Recibidos -->
-        <div class="col-md-4 mb-4">
-            <h4 class="text-center">Recibidos</h4>
-            <div class="chart-container">
-                <canvas id="chartReceived"></canvas>
-            </div>
-        </div>
-
-        <!-- Tarjetas Recibidos -->
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-primary text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $received['total'] ?></div>
-                        <div class="card-footer text-center">CFDI's Recibidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-secondary text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $received['revenues'] ?></div>
-                        <div class="card-footer text-center">Ingresos Recibidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-success text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $received['payrolls'] ?></div>
-                        <div class="card-footer text-center">Nómina Recibidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-warning text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $received['payment_supplements'] ?></div>
-                        <div class="card-footer text-center">Complementos Recibidos</div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card bg-info text-white mb-4">
-                        <div class="card-body fs-3 text-center"><?= $received['translates'] ?></div>
-                        <div class="card-footer text-center">Traslados Recibidos</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<form id="dataForm" class="row mt-2 mb-5">
-    <div class="col-4 d-flex flex-column">
-        <div>
-            <h6>Periodo de Descarga</h6>
-        </div>
-        <div class="mt-auto">
-            <div class="row">
-                <div class="form-group col-6">
+                <div class="form-group mt-3">
                     <label class="text-muted">Fecha de Inicio</label>
                     <input type="date" name="start_date" id="start_date" class="form-control" value="<?= $startDate ?>">
                 </div>
-                <div class="form-group col-6">
+                <div class="form-group mb-4">
                     <label class="text-muted">Fecha de Fin</label>
                     <input type="date" name="end_date" id="end_date" class="form-control" value="<?= $endDate ?>">
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </div>  
 
-    <div class="col-5 d-flex flex-column">
-        <div>
-            <h6>Tipo de Comprobante</h6>
-        </div>
-        <div class="mt-auto">
-            <div class="row mx-2">
-                <div class="btn-group mb-3" role="group">
-                    <input type="radio" class="btn-check" name="document_type" id="I" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary btn-sm" for="I">Ingresos</label>
+    <div class="col-9">
+        <section class="card border-0 shadow-sm my-4">
+            <div class="card-header bg-white d-flex align-items-center w-100">
+                <!-- 
+                    <button class="btn btn-sm btn-outline-secondary" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fiscalDataCollapse"
+                        aria-expanded="true"
+                        aria-controls="fiscalDataCollapse">
+                        <i class="fas fa-chevron-up" id="toggleIcon"></i>
+                    </button>
+                -->
+                <h5 class="mb-0 ml-2 text-muted">Datos Fiscales</h5>
+            </div>
 
-                    <input type="radio" class="btn-check" name="document_type" id="E" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="E">Egresos</label>
+            <div class="collapse show" id="fiscalDataCollapse">
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">RFC</div>
+                            <div class="fw-semibold">EKU9003173C9</div>
+                        </div>
+                        <div class="col-md-8 mb-2">
+                            <div class="text-muted small">Razón Social</div>
+                            <div class="fw-semibold">ESCUELA KEMPER URGATE</div>
+                        </div>
+                    </div>
 
-                    <input type="radio" class="btn-check" name="document_type" id="N" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="N">Nómina</label>
+                    <div class="row mb-3">
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">Código Postal</div>
+                            <div class="fw-semibold">12345</div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">Calle</div>
+                            <div class="fw-semibold">Avenida Principal</div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">Colonia</div>
+                            <div class="fw-semibold">Centro</div>
+                        </div>
+                    </div>
 
-                    <input type="radio" class="btn-check" name="document_type" id="P" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="P">Pago</label>
-
-                    <input type="radio" class="btn-check" name="document_type" id="T" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="T">Traslado</label>
+                    <div class="row">
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">Municipio</div>
+                            <div class="fw-semibold">Ciudad</div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">Estado</div>
+                            <div class="fw-semibold">Estado</div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="text-muted small">No. Exterior</div>
+                            <div class="fw-semibold">100</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="col-3 d-flex flex-column">
-        <div>
-            <h6>Emitidas o Recibidas</h6>
-        </div>
-        <div class="mt-auto">
-            <div class="row mx-2">
-                <div class="btn-group mb-3" role="group">
-                    <input type="radio" class="btn-check" name="type" id="emit" autocomplete="off" checked>
-                    <label class="btn btn-outline-primary btn-sm" for="emit">Emitidos</label>
-
-                    <input type="radio" class="btn-check" name="type" id="receive" autocomplete="off">
-                    <label class="btn btn-outline-primary btn-sm" for="receive">Recibidos</label>
-                </div>
-            </div>
-        </div>
-    </div>
-</form>
-
-
-<div class="row">
-    <div class="col-4 mx-auto text-center">
-        <button onclick="onExport()" class="btn btn-primary">Consultar</button>
-        <button onclick="onDownload()" type="button" class="btn btn-secondary">Descargar ZIP</button>
+        </section>
     </div>
 </div>
+
+<section class="card border-0 shadow-sm mb-5">
+    <div class="card-header bg-white d-flex align-items-center w-100">
+        <h5 class="mb-0 ml-2 text-muted">Emitidos</h5>
+    </div>
+
+    <div class="card-body">
+        <div class="row align-items-start">
+            <div class="col-md-4 my-1">
+                <div class="chart-container">
+                    <canvas id="chartEmitted"></canvas>
+                </div>
+            </div>
+
+            <div class="col-md-8 my-1">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-primary text-white">
+                            <div class="card-body fs-3 text-center"><?= $emited['total'] ?></div>
+                            <div class="card-footer text-center">CFDI's Emitidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-secondary text-white">
+                            <div class="card-body fs-3 text-center"><?= $emited['revenues'] ?></div>
+                            <div class="card-footer text-center">Ingresos Emitidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-success text-white">
+                            <div class="card-body fs-3 text-center"><?= $emited['payrolls'] ?></div>
+                            <div class="card-footer text-center">Nómina Emitidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-warning text-white">
+                            <div class="card-body fs-3 text-center"><?= $emited['payment_supplements'] ?></div>
+                            <div class="card-footer text-center">Complementos Emitidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-info text-white">
+                            <div class="card-body fs-3 text-center"><?= $emited['translates'] ?></div>
+                            <div class="card-footer text-center">Traslados Emitidos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+
+<section class="card border-0 shadow-sm mb-5">
+    <div class="card-header bg-white d-flex align-items-center w-100">
+        <h5 class="mb-0 ml-2 text-muted">Recibidos</h5>
+    </div>
+
+    <div class="card-body">
+        <div class="row align-items-start">
+            <div class="col-md-4 my-1">
+                <div class="chart-container">
+                    <canvas id="chartReceived"></canvas>
+                </div>
+            </div>
+
+            <div class="col-md-8 my-1">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-primary text-white mb-4">
+                            <div class="card-body fs-3 text-center"><?= $received['total'] ?></div>
+                            <div class="card-footer text-center">CFDI's Recibidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-secondary text-white mb-4">
+                            <div class="card-body fs-3 text-center"><?= $received['revenues'] ?></div>
+                            <div class="card-footer text-center">Ingresos Recibidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-success text-white mb-4">
+                            <div class="card-body fs-3 text-center"><?= $received['payrolls'] ?></div>
+                            <div class="card-footer text-center">Nómina Recibidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-warning text-white mb-4">
+                            <div class="card-body fs-3 text-center"><?= $received['payment_supplements'] ?></div>
+                            <div class="card-footer text-center">Complementos Recibidos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card bg-info text-white mb-4">
+                            <div class="card-body fs-3 text-center"><?= $received['translates'] ?></div>
+                            <div class="card-footer text-center">Traslados Recibidos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="card border-0 shadow-sm">
+    <div class="card-header bg-white d-flex align-items-center w-100">
+        <h5 class="mb-0 ml-2 text-muted">Descarga Fiscal</h5>
+    </div>
+
+    <div class="card-body">
+        <form id="dataForm" class="row my-2">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-8 d-flex flex-column">
+                        <div>
+                            <h6>Tipo de Comprobante</h6>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row mx-2">
+                                <div class="btn-group" role="group">
+                                    <input type="radio" class="btn-check" name="document_type" id="I" autocomplete="off" checked>
+                                    <label class="btn btn-outline-info btn-sm" for="I">Ingresos</label>
+
+                                    <input type="radio" class="btn-check" name="document_type" id="E" autocomplete="off">
+                                    <label class="btn btn-outline-info btn-sm" for="E">Egresos</label>
+
+                                    <input type="radio" class="btn-check" name="document_type" id="N" autocomplete="off">
+                                    <label class="btn btn-outline-info btn-sm" for="N">Nómina</label>
+
+                                    <input type="radio" class="btn-check" name="document_type" id="P" autocomplete="off">
+                                    <label class="btn btn-outline-info btn-sm" for="P">Pago</label>
+
+                                    <input type="radio" class="btn-check" name="document_type" id="T" autocomplete="off">
+                                    <label class="btn btn-outline-info btn-sm" for="T">Traslado</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 d-flex flex-column">
+                        <div>
+                            <h6>Emitidas o Recibidas</h6>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row mx-2">
+                                <div class="btn-group" role="group">
+                                    <input type="radio" class="btn-check" name="type" id="emit" autocomplete="off" checked>
+                                    <label class="btn btn-outline-secondary btn-sm" for="emit">Emitidos</label>
+
+                                    <input type="radio" class="btn-check" name="type" id="receive" autocomplete="off">
+                                    <label class="btn btn-outline-secondary btn-sm" for="receive">Recibidos</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </form>
+    </div>
+
+    <div class="card-footer bg-white">
+        <div class="col-4 mx-auto text-center">
+            <button onclick="onExport()" class="btn btn-info">Consultar</button>
+            <button onclick="onDownload()" type="button" class="btn btn-secondary">Descargar ZIP</button>
+        </div>
+    </div>
+</section>
 
 <?php require   __DIR__ . '/footer.php' ?>
 
@@ -280,7 +302,6 @@
                     const emited = response.stats.emited;
                     const received = response.stats.received;
 
-                    // Actualizar tarjetas
                     $('#emited_total').text(emited.total);
                     $('#emited_revenues').text(emited.revenues);
                     $('#emited_payrolls').text(emited.payrolls);
