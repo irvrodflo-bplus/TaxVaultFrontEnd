@@ -2552,3 +2552,1329 @@ Stack trace:
 [16-Jul-2025 11:39:11 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
 [16-Jul-2025 11:39:11 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
 [16-Jul-2025 11:39:11 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 11:48:21 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:48:21 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:48:21 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:48:21 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:48:21 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:48:22 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:48:28 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:48:29 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:48:29 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:48:29 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:48:29 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:48:29 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:48:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:48:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:48:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:48:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:48:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:48:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:48:35 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:49:29 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:49:29 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:49:29 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:49:29 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:49:29 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:49:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:49:33 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:49:33 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:49:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:49:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:49:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:49:34 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:49:38 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:49:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:49:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:49:47 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:49:47 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:49:47 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:49:48 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:49:55 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:49:55 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:49:55 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:49:55 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:49:55 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:49:56 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:50:01 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:50:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:50:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:50:06 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:50:06 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:50:06 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:50:06 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:50:18 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:50:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:50:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:50:47 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:50:47 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:50:47 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:50:48 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:50:52 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:50:52 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:50:52 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:50:52 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:50:52 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:50:53 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:51:04 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:51:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:51:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:51:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:51:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:51:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:51:06 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:51:10 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:51:10 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:51:10 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:51:10 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:51:10 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:51:11 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:51:17 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:14 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:18 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:21 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:22 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:25 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 11:59:27 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:00:16 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:00:20 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:00:25 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:00:26 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:00:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:33 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:37 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:42 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:44 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:53 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:12:55 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:55 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:55 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:55 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:55 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:56 America/Mexico_City] CFDI API: Filtros aplicados: 8245 resultados de 8240 total
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:12:58 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:13:01 America/Mexico_City] CFDI API: Filtros aplicados: 8245 resultados de 8240 total
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:13:04 America/Mexico_City] CFDI API: Filtros aplicados: 8245 resultados de 8240 total
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:13:15 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:17:19 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:17:24 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:17:27 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:17:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:17:45 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:17:45 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:17:45 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:17:45 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:17:46 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:17:46 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:18:58 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:02 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:03 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:06 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"N","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:08 America/Mexico_City] CFDI API: Filtros aplicados: 907 resultados de 907 total
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"N","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:12 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"N","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:13 America/Mexico_City] CFDI API: Filtros aplicados: 907 resultados de 907 total
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"N","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:19:16 America/Mexico_City] CFDI API: Filtros aplicados: 907 resultados de 907 total
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:32 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:35 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:36 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:39 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:41 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:43 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:20:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:54 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:20:57 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:04 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"P","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:13 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"P","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:19 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"P","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:20 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:24 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:25 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:28 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:32 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"P","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:34 America/Mexico_City] CFDI API: Filtros aplicados: 489 resultados de 489 total
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:21:36 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:23:59 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:24:02 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:24:02 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:24:02 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:24:02 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:24:02 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:24:03 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:24:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:24:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:24:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:24:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:24:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:24:06 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:24:11 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:24:42 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:25:03 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:25:08 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:27:40 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:27:40 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:27:40 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:27:40 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:27:40 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:27:41 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:27:45 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:03 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:28:06 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:06 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:06 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:06 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:06 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:07 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:10 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:25 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:27 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:28:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:48 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:48 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:48 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:48 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:28:50 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:30:14 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:30:17 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:30:20 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:30:21 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:30:24 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:35:36 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:35:39 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:35:42 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:02 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:05 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:13 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:16 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:32 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:34 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:36:36 America/Mexico_City] CFDI API: Filtros aplicados: 128 resultados de 128 total
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:37:08 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:37:10 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:37:11 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:38:26 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:38:29 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:38:31 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:38:31 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:38:31 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:38:31 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:38:31 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:38:32 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:38:38 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:39:38 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:39:38 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:39:38 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:39:38 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:39:38 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:39:39 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:39:41 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:39:41 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:39:41 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:39:41 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:39:41 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:39:42 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:39:44 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:40:39 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:40:44 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:40:45 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:40:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:40:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:40:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:40:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:40:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:40:54 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:41:01 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:41:01 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:41:01 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:41:01 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:41:01 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:41:02 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:41:05 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:41:06 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:21 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:26 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:37 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:37 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:37 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:37 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:37 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:38 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:49 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:54 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:42:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:42:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:42:57 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:42:57 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:42:57 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:42:57 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:03 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:07 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:08 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:37 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:40 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:43 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:43:46 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:43:46 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:43:46 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:43:46 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:43:46 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:43:47 America/Mexico_City] CFDI API: Filtros aplicados: 7053 resultados de 7050 total
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:45:35 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:46:04 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:47:20 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:47:23 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:47:23 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:47:23 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:47:23 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:47:23 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:47:24 America/Mexico_City] CFDI API: Filtros aplicados: 50 resultados de 50 total
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:47:49 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:47:56 America/Mexico_City] CFDI API: Filtros aplicados: 50 resultados de 50 total
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:48:50 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:48:59 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:49:03 America/Mexico_City] CFDI API: Filtros aplicados: 50 resultados de 50 total
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:49:05 America/Mexico_City] CFDI API: Filtros aplicados: 1877 resultados de 1877 total
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:52:22 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:52:44 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:55:14 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:14 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:14 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:14 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:14 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:15 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:18 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:20 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:23 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"I","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:27 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:55:50 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:50 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:50 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:50 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:50 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:51 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Cancelado","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:55 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 12:55:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:55:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:55:56 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:55:56 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:55:56 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:55:57 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:56:33 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PUE","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:57:56 America/Mexico_City] CFDI API: Filtros aplicados: 1181 resultados de 1181 total
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:57:59 America/Mexico_City] CFDI API: Filtros aplicados: 635 resultados de 635 total
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:58:01 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:59:53 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 12:59:57 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:00:01 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:00:04 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:23 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Filtros aplicados: 35 resultados de 35 total
+[16-Jul-2025 13:01:28 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"E","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:30 America/Mexico_City] CFDI API: Filtros aplicados: 35 resultados de 35 total
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"N","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Filtros aplicados: 0 resultados de 0 total
+[16-Jul-2025 13:01:32 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:03:04 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:04:14 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:04:32 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:05:20 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:05:31 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:06 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:06:12 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:06:16 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:06:18 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:07:48 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:07:48 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:07:48 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:07:48 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:07:48 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:07:49 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:07:56 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:02 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:05 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:08:09 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:13 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:08:17 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:40 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:43 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:44 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:44 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:08:47 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:08:48 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:08:48 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:12:34 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:12:47 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:19 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:13:25 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:13:32 America/Mexico_City] CFDI API: Filtros aplicados: 1785 resultados de 1785 total
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:35 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:13:37 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"T","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Filtros aplicados: 1 resultados de 1 total
+[16-Jul-2025 13:14:36 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:14:54 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:14:56 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:15:41 America/Mexico_City] CFDI API: Filtros aplicados: 1927 resultados de 1927 total
+[16-Jul-2025 13:16:15 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:16:15 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:16:15 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:16:15 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:16:15 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:16:16 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:27 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Filtros aplicados: 8245 resultados de 8240 total
+[16-Jul-2025 13:17:30 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:34 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"tipo_comprobante":"I","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:35 America/Mexico_City] CFDI API: Filtros aplicados: 8245 resultados de 8240 total
+[16-Jul-2025 13:17:35 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:17:42 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:42 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:42 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:42 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:42 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:43 America/Mexico_City] CFDI API: Filtros aplicados: 9769 resultados de 9764 total
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"status_sat":"Vigente","metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:46 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Iniciando conexión a base de datos
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Conectando con DSN: mysql:host=localhost;dbname=tax_vault;charset=utf8mb4
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Conexión establecida exitosamente
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Procesando solicitud: POST filtrar-cfdis
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Filtrando CFDIs con: {"limite":10000,"offset":0,"metodo_pago":"PPD","fecha_inicio":"2025-07-01","fecha_fin":"2025-07-31"}
+[16-Jul-2025 13:17:50 America/Mexico_City] CFDI API: Filtros aplicados: 2225 resultados de 2223 total

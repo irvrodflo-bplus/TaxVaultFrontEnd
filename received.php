@@ -1,6 +1,28 @@
 
 <?php require __DIR__ . '/menu.php' ?>
+<style>
+.filter-btn {
+    background-color: transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-width: 4px; 
+    color: black;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.4rem;
+    box-shadow: none;
+    transform: scale(1);
+}
 
+.filter-btn.active {
+    background-color: #007bff;
+    color: white;
+    border-width: 2px; 
+    border-color: #007bff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+</style>
 <div  style="margin-left: 0;">
     <!-- Content Header -->
     <div class="content-header">
@@ -103,38 +125,52 @@
                         </div>
                     </div>
                     
-                    <div class="filter-buttons mb-3 d-flex flex-wrap gap-4o">
-                        <div class="btn-group me-3" role="group" aria-label="Filtrado por estado">
-                            <button class="btn btn-primary btn-sm" data-filter="vigentes">Vigentes</button>
-                            <button class="btn btn-outline-secondary btn-sm" data-filter="cancelados">Cancelados</button>
-                            <button class="btn btn-outline-secondary btn-sm" data-filter="todos">Todos</button>
+                    <div class="filter-buttons mb-3 d-flex align-items-center gap-4 flex-nowrap overflow-auto py-2">
+                        <div class="btn-group btn-group-filter flex-shrink-0" role="group" data-group="status">
+                            <button type="button" class="btn btn-secondary btn-filter filter-btn active" data-filter="todos">
+                                <i class="fas fa-list"></i> Todos
+                            </button>
+                            <button type="button" class="btn btn-success btn-filter filter-btn" data-filter="vigentes">
+                                <i class="fas fa-check-circle"></i> Vigentes
+                            </button>
+                            <button type="button" class="btn btn-danger btn-filter filter-btn" data-filter="cancelados">
+                                <i class="fas fa-times-circle"></i> Cancelados
+                            </button>
                         </div>
 
-                        <div class="btn-group" role="group" aria-label="Filtrado por método de pago">
-                            <button class="btn btn-outline-secondary btn-sm" data-filter="pue">PUE</button>
-                            <button class="btn btn-outline-secondary btn-sm" data-filter="ppd">PPD</button>
-                            <button class="btn btn-primary btn-sm" data-filter="todos-tipos">Todos</button>
+                        <div class="btn-group btn-group-filter flex-shrink-0 mx-2" role="group" data-group="payment">
+                            <button type="button" class="btn btn-secondary btn-filter filter-btn active" data-filter="todos-tipos">
+                                <i class="fas fa-list"></i> Todos
+                            </button>
+                            <button type="button" class="btn btn-info btn-filter filter-btn" data-filter="pue">
+                                <i class="fas fa-money-bill-wave"></i> PUE
+                            </button>
+                            <button type="button" class="btn btn-warning btn-filter filter-btn" data-filter="ppd">
+                                <i class="fas fa-calendar-alt"></i> PPD
+                            </button>
+                        </div>
+
+                        <div class="btn-group btn-group-filter flex-shrink-0" role="group" data-group="comprobante">
+                            <button type="button" class="btn btn-secondary btn-filter filter-btn active" data-status="todos">
+                                <i class="fas fa-sign-in-alt"></i> Todos
+                            </button>
+                            <button type="button" class="btn btn-success btn-filter filter-btn" data-status="ingreso">
+                                <i class="fas fa-sign-in-alt"></i> Ingreso
+                            </button>
+                            <button type="button" class="btn btn-danger btn-filter filter-btn" data-status="egreso">
+                                <i class="fas fa-sign-out-alt"></i> Egreso
+                            </button>
+                            <button type="button" class="btn btn-info btn-filter filter-btn" data-status="traslado">
+                                <i class="fas fa-exchange-alt"></i> Traslado
+                            </button>
+                            <button type="button" class="btn btn-warning btn-filter filter-btn" data-status="nomina">
+                                <i class="fas fa-file-invoice-dollar"></i> Nómina
+                            </button>
+                            <button type="button" class="btn btn-primary btn-filter filter-btn" data-status="pago">
+                                <i class="fas fa-money-bill-wave"></i> Pago
+                            </button>
                         </div>
                     </div>
-
-                    <!-- Status Tabs -->
-                    <ul class="nav nav-tabs status-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" data-status="ingreso">Ingreso (0)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-status="egreso">Egreso (0)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-status="traslado">Traslado (0)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-status="nomina">Nómina (0)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-status="pago">Pago (0)</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
 
@@ -792,6 +828,8 @@ const DataManager = {
             return acc;
         }, {});
 
+        const totalTodos = currentData.length;
+
         document.querySelectorAll('[data-status]').forEach(tab => {
             const status = tab.getAttribute('data-status');
             let count = 0;
@@ -802,6 +840,7 @@ const DataManager = {
                 case 'traslado': count = contadores['T'] || 0; break;
                 case 'nomina': count = contadores['N'] || 0; break;
                 case 'pago': count = contadores['P'] || 0; break;
+                case 'todos': count = totalTodos; break;
             }
             
             const text = tab.textContent.split('(')[0].trim();
@@ -813,41 +852,39 @@ const DataManager = {
 document.addEventListener('DOMContentLoaded', function() {
     cargarDatos();
 
-    document.querySelectorAll('[data-filter]').forEach(button => {
-        button.addEventListener('click', function() {
-            const filter = this.getAttribute('data-filter');
+    document.querySelectorAll('.btn-group-filter').forEach(group => {
+        const buttons = group.querySelectorAll('.btn-filter');
+        
+        buttons.forEach(btn => {
+            if (!btn.dataset.originalClass) {
+                btn.dataset.originalClass = btn.className;
+            }
             
-            // Actualizar estado visual de botones
-            document.querySelectorAll('[data-filter]').forEach(btn => {
-                btn.classList.remove('btn-primary');
-                btn.classList.add('btn-outline-secondary');
+            btn.addEventListener('click', function() {
+            const group = this.closest('[data-group]');
+            const filter = this.dataset.filter;
+            
+            // Actualizar grupo
+            group.querySelectorAll('.btn-filter').forEach(b => {
+                b.className = b.dataset.originalClass; 
+                b.classList.remove('active');
             });
-            this.classList.remove('btn-outline-secondary');
-            this.classList.add('btn-primary');
             
-            // Aplicar filtro
+            // Activar el actual
+            this.classList.add('active');
+            
+
             switch(filter) {
-                case 'vigentes':
-                    currentFilters.status_sat = 'Vigente';
-                    break;
-                case 'cancelados':
-                    currentFilters.status_sat = 'Cancelado';
-                    break;
-                case 'pue':
-                    currentFilters.metodo_pago = 'PUE';
-                    break;
-                case 'ppd':
-                    currentFilters.metodo_pago = 'PPD';
-                    break;
-                case 'todos':
-                    currentFilters.status_sat = '';
-                    break;
-                case 'todos-tipos':
-                    currentFilters.metodo_pago = '';
-                    break;
+                case 'vigentes': currentFilters.status_sat = 'Vigente'; break;
+                case 'cancelados': currentFilters.status_sat = 'Cancelado'; break;
+                case 'pue': currentFilters.metodo_pago = 'PUE'; break;
+                case 'ppd': currentFilters.metodo_pago = 'PPD'; break;
+                case 'todos': currentFilters.status_sat = ''; break;
+                case 'todos-tipos': currentFilters.metodo_pago = ''; break;
             }
             
             DataManager.aplicarFiltros();
+            });
         });
     });
 
@@ -871,6 +908,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 'traslado': currentFilters.tipo_comprobante = 'T'; break;
                 case 'nomina': currentFilters.tipo_comprobante = 'N'; break;
                 case 'pago': currentFilters.tipo_comprobante = 'P'; break;
+                case 'todos': currentFilters.tipo_comprobante = ''; break;
             }
             
             DataManager.aplicarFiltros();
