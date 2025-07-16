@@ -92,7 +92,7 @@
                             </div>
                         </div>
                         <div class="col-md-2">
-                            <button class="btn btn-primary btn-block" onclick="cargarDatos()">
+                            <button class="btn btn-info btn-block" onclick="cargarDatos()">
                                 <i class="fas fa-filter"></i> Filtrar
                             </button>
                         </div>
@@ -137,39 +137,63 @@
                     </ul>
                 </div>
             </div>
-
-            <!-- Totales Section -->
+            
             <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Totales</h3>
-                    <div class="card-tools">
-                        <span id="total-registros" class="badge badge-info">0 registros</span>
-                    </div>
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h3 class="card-title">
+                        <i class="fas fa-calculator"></i> Totales
+                    </h3>
+                    <span id="total-registros" class="badge bg-info text-white">0 registros</span>
                 </div>
-                <div class="card-body p-0">
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Tipo</th>
-                                    <th>Conteo de CFDIs</th>
-                                    <th>Subtotal</th>
-                                    <th>IVA</th>
-                                    <th>Descuento</th>
-                                    <th>Total</th>
-                                </tr>
-                            </thead>
-                            <tbody id="totalesTableBody">
-                                <tr>
-                                    <td>Filtrados</td>
-                                    <td id="total-count">0</td>
-                                    <td id="total-subtotal">$0.00</td>
-                                    <td id="total-iva">$0.00</td>
-                                    <td id="total-descuento">$0.00</td>
-                                    <td id="total-total">$0.00</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <div class="card-body">
+                    <div class="row g-3">            
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="info-box w-100">
+                                <span class="info-box-icon bg-secondary elevation-1">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-truncate">Subtotal</span>
+                                    <span class="info-box-number text-nowrap" id="total-subtotal">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="info-box w-100">
+                                <span class="info-box-icon bg-warning elevation-1">
+                                    <i class="fas fa-percent"></i>
+                                </span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-truncate">IVA</span>
+                                    <span class="info-box-number text-nowrap" id="total-iva">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="info-box w-100">
+                                <span class="info-box-icon bg-info elevation-1">
+                                    <i class="fas fa-tags"></i>
+                                </span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-truncate">Descuento</span>
+                                    <span class="info-box-number text-nowrap" id="total-descuento">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="info-box w-100">
+                                <span class="info-box-icon bg-success elevation-1">
+                                    <i class="fas fa-coins"></i>
+                                </span>
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-truncate">Total</span>
+                                    <span class="info-box-number fs-5 fw-bold text-nowrap" id="total-total">$0.00</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -751,7 +775,6 @@ const DataManager = {
             return acc;
         }, { count: 0, subtotal: 0, descuento: 0, total: 0, iva: 0 });
 
-        document.getElementById('total-count').textContent = totales.count;
         document.getElementById('total-subtotal').textContent = Utils.formatearMoneda(totales.subtotal);
         document.getElementById('total-descuento').textContent = Utils.formatearMoneda(totales.descuento);
         document.getElementById('total-total').textContent = Utils.formatearMoneda(totales.total);
