@@ -512,7 +512,6 @@ const DataManager = {
         this.currentPage = 1; // Reinicia paginación al aplicar filtros
         this.cargarDatos(filtrosActivos);
     },
-
     actualizarTabla: function () {
         const tbody = document.getElementById('cfdisTableBody');
         tbody.innerHTML = '';
@@ -556,9 +555,12 @@ const DataManager = {
                 <td>${Utils.formatearMoneda(cfdi.descuento)}</td>
                 <td>${Utils.formatearMoneda(cfdi.total)}</td>
                 <td>${relacionadosHTML}</td>
+                
+                <!-- Status SAT -->
                 <td style="text-align:center; vertical-align: middle;">
-                    <span class="badge ${cfdi.status_sat === 'Vigente' ? 'badge-success' : 'badge-danger'}">
-                        ${cfdi.status_sat}
+                    <span class="badge ${cfdi.status_sat === 'Vigente' ? 'badge-success' : 'badge-danger'}" 
+                        data-bs-toggle="tooltip" title="${cfdi.status_sat}">
+                        <i class="fas ${cfdi.status_sat === 'Vigente' ? 'fa-check-circle' : 'fa-times-circle'}"></i>
                     </span>
                 </td>
 
@@ -567,12 +569,12 @@ const DataManager = {
                     ${(() => {
                         switch(cfdi.codigo_estatus) {
                             case 'S':
-                                return `<span class="badge bg-success" title="Correcto"><i class="fas fa-check-circle"></i> S</span>`;
+                                return `<span class="badge bg-success" data-bs-toggle="tooltip" title="Correcto"><i class="fas fa-check-circle"></i></span>`;
                             case 'N-601':
                             case 'N-602':
-                                return `<span class="badge bg-danger" title="Error código ${cfdi.codigo_estatus}"><i class="fas fa-exclamation-triangle"></i> ${cfdi.codigo_estatus}</span>`;
+                                return `<span class="badge bg-danger" data-bs-toggle="tooltip" title="Código ${cfdi.codigo_estatus}"><i class="fas fa-exclamation-triangle"></i></span>`;
                             default:
-                                return `<span class="badge bg-secondary">-</span>`;
+                                return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="Sin información">-</span>`;
                         }
                     })()}
                 </td>
@@ -582,13 +584,13 @@ const DataManager = {
                     ${(() => {
                         switch(cfdi.es_cancelable) {
                             case 'No cancelable':
-                                return `<span class="badge bg-secondary" title="No cancelable"><i class="fas fa-lock"></i></span>`;
+                                return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="No cancelable"><i class="fas fa-lock"></i></span>`;
                             case 'Cancelable sin aceptación':
-                                return `<span class="badge bg-warning text-dark" title="Cancelable sin aceptación"><i class="fas fa-clock"></i></span>`;
+                                return `<span class="badge bg-warning text-dark" data-bs-toggle="tooltip" title="Cancelable sin aceptación"><i class="fas fa-clock"></i></span>`;
                             case 'Cancelable con aceptación':
-                                return `<span class="badge bg-success" title="Cancelable con aceptación"><i class="fas fa-check"></i></span>`;
+                                return `<span class="badge bg-success" data-bs-toggle="tooltip" title="Cancelable con aceptación"><i class="fas fa-check"></i></span>`;
                             default:
-                                return `<span class="badge bg-secondary">-</span>`;
+                                return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="Sin información">-</span>`;
                         }
                     })()}
                 </td>
@@ -599,19 +601,19 @@ const DataManager = {
                         switch(cfdi.estatus_cancelacion) {
                             case null:
                             case '':
-                                return `<span class="badge bg-info">Sin cancelar</span>`;
+                                return `<span class="badge bg-info" data-bs-toggle="tooltip" title="Sin cancelar"><i class="fas fa-info-circle"></i></span>`;
                             case 'Cancelado sin aceptación':
-                                return `<span class="badge bg-warning text-dark"><i class="fas fa-exclamation-circle"></i> Cancelado sin aceptación</span>`;
+                                return `<span class="badge bg-warning text-dark" data-bs-toggle="tooltip" title="Cancelado sin aceptación"><i class="fas fa-exclamation-circle"></i></span>`;
                             case 'En proceso':
-                                return `<span class="badge bg-primary"><i class="fas fa-spinner fa-spin"></i> En proceso</span>`;
+                                return `<span class="badge bg-primary" data-bs-toggle="tooltip" title="En proceso"><i class="fas fa-spinner fa-spin"></i></span>`;
                             case 'Plazo vencido':
-                                return `<span class="badge bg-secondary"><i class="fas fa-times-circle"></i> Plazo vencido</span>`;
+                                return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="Plazo vencido"><i class="fas fa-times-circle"></i></span>`;
                             case 'Cancelado con aceptación':
-                                return `<span class="badge bg-success"><i class="fas fa-check-circle"></i> Cancelado con aceptación</span>`;
+                                return `<span class="badge bg-success" data-bs-toggle="tooltip" title="Cancelado con aceptación"><i class="fas fa-check-circle"></i></span>`;
                             case 'Solicitud rechazada':
-                                return `<span class="badge bg-danger"><i class="fas fa-ban"></i> Solicitud rechazada</span>`;
+                                return `<span class="badge bg-danger" data-bs-toggle="tooltip" title="Solicitud rechazada"><i class="fas fa-ban"></i></span>`;
                             default:
-                                return `<span class="badge bg-secondary">-</span>`;
+                                return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="Sin información">-</span>`;
                         }
                     })()}
                 </td>
@@ -620,16 +622,22 @@ const DataManager = {
                 <td style="text-align:center; vertical-align: middle;">
                     ${(() => {
                         if (cfdi.validacion_efos === 100) {
-                            return `<span class="badge bg-danger"><i class="fas fa-exclamation-triangle"></i> En lista EFOS</span>`;
+                            return `<span class="badge bg-danger" data-bs-toggle="tooltip" title="EFOS"><i class="fas fa-exclamation-triangle"></i></span>`;
                         } else if (cfdi.validacion_efos === 200) {
-                            return `<span class="badge bg-success"><i class="fas fa-check-circle"></i> No en lista EFOS</span>`;
+                            return `<span class="badge bg-success" data-bs-toggle="tooltip" title="No EFOS"><i class="fas fa-check-circle"></i></span>`;
                         } else {
-                            return `<span class="badge bg-secondary">-</span>`;
+                            return `<span class="badge bg-secondary" data-bs-toggle="tooltip" title="Sin información">-</span>`;
                         }
                     })()}
                 </td>
             `;
             tbody.appendChild(row);
+        });
+
+        // Inicializar tooltips
+        $('[data-bs-toggle="tooltip"]').tooltip({
+            trigger: 'hover',
+            placement: 'top'
         });
 
         this.actualizarPaginacion();
