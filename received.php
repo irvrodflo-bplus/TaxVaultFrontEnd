@@ -7,11 +7,13 @@
     cursor: pointer;
     border-width: 4px; 
     color: black;
-    padding: 0.375rem 0.75rem;
+    padding: 0.3rem 0.68rem;
+    font-size: 12px;
     border-radius: 0.4rem;
     box-shadow: none;
     transform: scale(1);
 }
+
 
 .filter-btn.active {
     background-color: #007bff;
@@ -83,7 +85,7 @@
             <!-- Filters Section -->
             <div class="card">
                 <div class="card-body">
-                    <div class="row mb-3">
+                    <div class="row mb-4">
                         <div class="col-md-3">
                             <?php
                                 $currentPeriod = date('Y-m'); 
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                     
-                    <div class="filter-buttons mb-3 d-flex align-items-center gap-4 flex-nowrap overflow-auto py-2">
+                    <div class="filter-buttons mt-2 d-flex align-items-center gap-4 flex-nowrap overflow-auto">
                         <div class="btn-group btn-group-filter flex-shrink-0" role="group" data-group="status">
                             <button type="button" class="btn btn-secondary btn-filter filter-btn active" data-filter="todos">
                                 <i class="fas fa-list"></i> Todos
