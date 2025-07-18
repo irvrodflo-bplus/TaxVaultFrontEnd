@@ -1,4 +1,3 @@
-
 <?php require __DIR__ . '/menu.php' ?>
 <style>
 .filter-btn {
@@ -22,7 +21,6 @@
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-
 </style>
 <div  style="margin-left: 0;">
     <!-- Content Header -->
@@ -422,7 +420,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=debug`);
     },
 
-    obtenerCFDIs: async function(limite = 10000, offset = 0) {
+    obtenerCFDIs: async function(limite = 100000, offset = 0) {
         return await this.makeRequest(`${API_BASE_URL}?ruta=cfdis&limite=${limite}&offset=${offset}`);
     },
 
@@ -430,7 +428,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=filtrar-cfdis`, {
             method: 'POST',
             body: JSON.stringify({
-                limite: 10000,
+                limite: 100000,
                 offset: 0,
                 ...filtros
             })
@@ -482,7 +480,6 @@ const DataManager = {
             Utils.ocultarLoading();
         }
     },
-
     aplicarFiltros: function() {
         const filtrosActivos = {};
         
@@ -749,7 +746,7 @@ const DataManager = {
         `;
 
         Swal.fire({
-            title: `Detalle CFDI: ${cfdi.uuid ? Utils.truncarTexto(cfdi.uuid, 10) : ''}`,
+            title: `UUID: ${cfdi.uuid}`,
             html: detallesHtml,
             width: '600px',
             confirmButtonText: 'Cerrar',

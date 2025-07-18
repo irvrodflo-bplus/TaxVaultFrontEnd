@@ -424,7 +424,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=debug`);
     },
 
-    obtenerCFDIs: async function(limite = 10000, offset = 0) {
+    obtenerCFDIs: async function(limite = 0, offset = 0) {
         return await this.makeRequest(`${API_BASE_URL}?ruta=cfdis&limite=${limite}&offset=${offset}`);
     },
 
@@ -432,7 +432,7 @@ const ApiClient = {
         return await this.makeRequest(`${API_BASE_URL}?ruta=filtrar-cfdis`, {
             method: 'POST',
             body: JSON.stringify({
-                limite: 10000,
+                limite: 100000,
                 offset: 0,
                 ...filtros
             })
@@ -791,7 +791,7 @@ const DataManager = {
         `;
 
         Swal.fire({
-            title: `Status CFDI: ${cfdi.uuid ? Utils.truncarTexto(cfdi.uuid, 10) : ''}`,
+            title: `UUID: ${cfdi.uuid}`,
             html: statusHtml,
             width: '500px',
             confirmButtonText: 'Cerrar',
