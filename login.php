@@ -206,7 +206,7 @@
                         </div>
 
                         <div class="form-group-custom text-center">
-                            <button onclick="login()" class="btn-custom" type="submit" id="inicio-sesion">
+                            <button onclick="login()" class="btn-custom" type="button" id="inicio-sesion">
                                 Iniciar sesión
                             </button>
                         </div>
