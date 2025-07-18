@@ -6,7 +6,7 @@
     $service = LocalVaultService::getInstance();
 
     $endDate = date('Y-m-d');
-    $startDate = date('Y-m-d', strtotime('-1 month'));
+    $startDate = date('Y-m-d', strtotime('-1 week'));
 
     $data = [
         "start_date" => $startDate,
